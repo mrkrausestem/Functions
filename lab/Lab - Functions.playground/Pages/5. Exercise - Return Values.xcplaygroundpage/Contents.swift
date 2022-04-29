@@ -1,13 +1,15 @@
 /*:
  ## Exercise - Return Values and Tuples
  
- Write a function called `greeting` that takes a `String` argument called name, and returns a `String` that greets the name that was passed into the function. I.e. if you pass in "Dan" the return value might be "Hi, Dan! How are you?" Use the function and print the result.
+ > Print results from each of these functions.
+ 
+ Write a function called `calcAreaOfRectangle` that takes two doubles `height` and `width` and returns a double representing the area of a square. Call your function and print out the result. (1 point)
  */
 
 
 /*:
- Write a function that takes two `Int` arguments, and returns an `Int`. The function should multiply the two arguments, add 2, then return the result. Use the function and print the result.
+ Write a second function called `calcAreaOfTriangle` like the one above. Use HERON's forumla. This will require 3 parameters. (1 point)
  */
 
 
-//: [Previous](@previous)  |  page 5 of 6  |  [Next: App Exercise - Separating Functions](@next)
+//: [Previous](@previous)  |  page 5 of 6  |  [Next](@next)

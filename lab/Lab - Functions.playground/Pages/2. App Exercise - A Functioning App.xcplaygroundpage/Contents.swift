@@ -1,19 +1,17 @@
 /*:
  ## App Exercise - A Functioning App
  
- >These exercises reinforce Swift concepts in the context of a fitness tracking app.
+ As you may have guessed, functions are key to making your app work. For example, in every exercise dealing with correctQuestions until now, you have simply assigned a number of correct Questions to a `correctQuestions` variable. This isn't very realistic seeing as the number of questions you get correct increments one at a time and continues changing throughout the quiz.
  
- As you may have guessed, functions are key to making your app work. For example, in every exercise dealing with step count until now, you have simply assigned a number of steps to a `steps` variable. This isn't very realistic seeing as the number of steps you take increments one at a time and continues changing throughout the day.
- 
- A reoccurring process like this is a perfect candidate for a function. Write a function called `incrementSteps` after the declaration of `steps` below that will increment `steps` by one and then print its value. Call the function multiple times and observe the printouts.
+ A reoccurring process like this is a perfect candidate for a function. Write a function called `incrementCorrect` after the declaration of `correctQuestions` below that will increment `correctQuestions` by one and then print its value. Call the function multiple times and observe the printouts. (1 point)
  */
-var steps = 0
+var correctQuestions = 0
 
 
 /*:
- Similarly, if you want to regularly provide progress updates to your user, you can put your control flow statements that check on progress into a function. Write a function called `progressUpdate` after the declaration of `goal` below. The function should print "You're off to a good start." if `steps` is less than 10% of `goal`, "You're almost halfway there!" if `steps` is less than half of `goal`, "You're over halfway there!" if `steps` is less than 90% of `goal`, "You're almost there!" if `steps` is less than `goal`, and "You beat your goal!" otherwise. Call the function and observe the printout. Remember, you can convert numbers using the appropriate Int or Double initializer.
+ Similarly, if you want to regularly provide results updates to your user, you can put your control flow statements that check on results into a function. Write a function called `reportGrade` after the declaration of `totalQuestions` below. The function should print "You got <correctQuestions> out of <totalQuestions> correct. That's a <insert letter grade here>." Use a switch or if-else-if block to assign the grade. Try to write this as efficiently as possible. (1 point)
  */
-let goal = 10000
+let totalQuestions = 20
 
 
-//: [Previous](@previous)  |  page 2 of 6  |  [Next: Exercise - Parameters and Argument Labels](@next)
+//: [Previous](@previous)  |  page 2 of 6  |  [Next](@next)
