@@ -14,8 +14,6 @@
  
 */
 
-
-
 /*: Now create a function to calculate the surface area of a triangular prism. Copy and use your triangle area function from the previous page. Make sure you print the result. (1 points)
 */
 
