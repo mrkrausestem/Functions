@@ -9,6 +9,7 @@
 
 /*:
  Write a second function called `calcAreaOfTriangle` like the one above. Use HERON's forumla. This will require 3 parameters, give them unique names. (1 point)
+ > ***Look up Heron's formula and its usage on the web***
  */
 
 

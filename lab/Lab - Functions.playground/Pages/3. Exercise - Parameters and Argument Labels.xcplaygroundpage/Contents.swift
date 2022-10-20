@@ -8,7 +8,7 @@
 
 
 /*:
- Write a function called `almostAddition` that takes two `Int` arguments. The first argument should not require an argument label. The function should add the two arguments together, subtract 2, then print the result. Call the function and observe the printout. (.5 points)
+ Write a function called `almostAddition` that takes two `Int` arguments. The first argument should **not** require an argument label. The function should add the two arguments together, subtract 2, then print the result. Call the function and observe the printout. (.5 points)
  */
 
 
