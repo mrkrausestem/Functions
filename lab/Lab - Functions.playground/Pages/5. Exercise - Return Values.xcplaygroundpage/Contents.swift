@@ -1,3 +1,5 @@
+import Foundation
+
 /*:
  ## Exercise - Return Values and Tuples
  

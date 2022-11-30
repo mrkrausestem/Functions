@@ -1,3 +1,5 @@
+import Foundation
+
 /*:
  ## Separating Functions
  > These exercises should return a value and print the result OUTSIDE of the functions
